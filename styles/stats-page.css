@@ -1,0 +1,49 @@
+.display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: rgb(230, 230, 230);
+  padding: 30px 30px;
+  border: 4px solid rgb(47, 62, 70);
+  border-radius: 12px;
+
+  font-size: 30px;
+}
+
+.display-total-games {
+  margin-bottom: 30px;
+}
+
+.display-score {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.display-score div {
+  padding: 0 20px;
+  max-width: 400px;
+}
+
+.play-again-btn {
+  color: black;
+}
+
+.play-again-btn {
+  margin-top: 20px;
+  background-color: rgb(252, 163, 17);
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid rgb(47, 62, 70);
+  border-radius: 5px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: opacity 0.3;
+}
+
+.play-again-btn:hover {
+  opacity: 0.8;
+}
